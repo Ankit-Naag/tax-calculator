@@ -355,7 +355,7 @@ export default function Home() {
               </div>
 
               <p className="text-xs uppercase tracking-[0.3em] text-[#4b433e]">
-                Estimates only.
+                Estimates Only.
               </p>
             </div>
           </section>
