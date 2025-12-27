@@ -53,6 +53,54 @@ const calcProgressiveTax = (income: number, brackets: TaxBracket[]) => {
   return Math.max(tax, 0);
 };
 
+const PieChart = ({
+  segments,
+  size = 140,
+}: {
+  segments: { value: number; color: string; label: string }[];
+  size?: number;
+}) => {
+  const total = segments.reduce((sum, segment) => sum + segment.value, 0);
+  const radius = size / 2 - 8;
+  const circumference = 2 * Math.PI * radius;
+  let offset = 0;
+
+  return (
+    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+      <g transform={`rotate(-90 ${size / 2} ${size / 2})`}>
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius}
+          fill="none"
+          stroke="rgba(255,255,255,0.12)"
+          strokeWidth="14"
+        />
+        {segments.map((segment) => {
+          const value = total === 0 ? 0 : (segment.value / total) * circumference;
+          const dasharray = `${value} ${circumference - value}`;
+          const circle = (
+            <circle
+              key={segment.label}
+              cx={size / 2}
+              cy={size / 2}
+              r={radius}
+              fill="none"
+              stroke={segment.color}
+              strokeWidth="14"
+              strokeDasharray={dasharray}
+              strokeDashoffset={-offset}
+              strokeLinecap="round"
+            />
+          );
+          offset += value;
+          return circle;
+        })}
+      </g>
+    </svg>
+  );
+};
+
 const states = (stateTaxData as { states: StateConfig[] }).states;
 
 export default function Home() {
@@ -86,6 +134,18 @@ export default function Home() {
   const selfEmploymentTax = grossIncome * selectedState.self_employment_tax_rate;
   const totalTax = federalTax + stateTax + selfEmploymentTax;
   const takeHomeIncome = Math.max(grossIncome - totalTax, 0);
+
+  const taxSegments = [
+    { label: "Federal", value: federalTax, color: "#f59e0b" },
+    { label: "State", value: stateTax, color: "#38bdf8" },
+    { label: "Self-Employment", value: selfEmploymentTax, color: "#f472b6" },
+  ];
+
+  const incomeSegments = [
+    { label: "Deductions", value: cappedDeductions, color: "#0f766e" },
+    { label: "Taxes", value: totalTax, color: "#b45309" },
+    { label: "Take-home", value: takeHomeIncome, color: "#22c55e" },
+  ];
 
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top,#fff4d1,transparent_55%),radial-gradient(circle_at_top_left,#e6f6f3,transparent_50%),linear-gradient(135deg,#f7f1e8,#f4efe6)] text-[#1f1a17]">
@@ -235,32 +295,67 @@ export default function Home() {
                 <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-[#f59e0b]">
                   Tax breakdown
                 </h3>
-                <div className="mt-4 grid gap-4 text-sm text-white/80">
-                  <div className="flex items-center justify-between text-base font-semibold text-white">
-                    <span>Federal tax</span>
-                    <span>{currency.format(federalTax)}</span>
+                <div className="mt-5 grid gap-6 md:grid-cols-[140px_1fr] md:items-center">
+                  <div className="flex items-center justify-center">
+                    <PieChart segments={taxSegments} />
                   </div>
-                  <div className="flex items-center justify-between">
-                    <span>State income tax</span>
-                    <span className="font-semibold text-white">
-                      {currency.format(stateTax)}
-                    </span>
+                  <div className="grid gap-4 text-sm text-white/80">
+                    <div className="flex items-center justify-between text-base font-semibold text-white">
+                      <span>Federal tax</span>
+                      <span>{currency.format(federalTax)}</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span>State income tax</span>
+                      <span className="font-semibold text-white">
+                        {currency.format(stateTax)}
+                      </span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span>Self-employment tax</span>
+                      <span className="font-semibold text-white">
+                        {currency.format(selfEmploymentTax)}
+                      </span>
+                    </div>
+                    <div className="flex items-center justify-between border-t border-white/20 pt-4 text-base font-semibold text-white">
+                      <span>Estimated take-home</span>
+                      <span>{currency.format(takeHomeIncome)}</span>
+                    </div>
                   </div>
-                  <div className="flex items-center justify-between">
-                    <span>Self-employment tax</span>
-                    <span className="font-semibold text-white">
-                      {currency.format(selfEmploymentTax)}
-                    </span>
+                </div>
+              </div>
+
+              <div className="glass-panel rounded-3xl border border-white/80 p-7 shadow-[0_25px_65px_rgba(15,23,42,0.12)]">
+                <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-[#0f766e]">
+                  Income allocation
+                </h3>
+                <div className="mt-5 grid gap-6 md:grid-cols-[140px_1fr] md:items-center">
+                  <div className="flex items-center justify-center">
+                    <PieChart segments={incomeSegments} />
                   </div>
-                  <div className="flex items-center justify-between border-t border-white/20 pt-4 text-base font-semibold text-white">
-                    <span>Estimated take-home</span>
-                    <span>{currency.format(takeHomeIncome)}</span>
+                  <div className="grid gap-3 text-sm text-[#4b433e]">
+                    {incomeSegments.map((segment) => (
+                      <div
+                        key={segment.label}
+                        className="flex items-center justify-between"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span
+                            className="h-3 w-3 rounded-full"
+                            style={{ backgroundColor: segment.color }}
+                          />
+                          <span>{segment.label}</span>
+                        </div>
+                        <span className="font-semibold text-[#1f1a17]">
+                          {currency.format(segment.value)}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
 
               <p className="text-xs uppercase tracking-[0.3em] text-[#4b433e]">
-                Estimates only. Not tax advice.
+                Estimates only.
               </p>
             </div>
           </section>
