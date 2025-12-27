@@ -1,0 +1,2674 @@
+{
+  "states": [
+    {
+      "state_code": "AL",
+      "state_name": "Alabama",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "AK",
+      "state_name": "Alaska",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "AZ",
+      "state_name": "Arizona",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "AR",
+      "state_name": "Arkansas",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "CA",
+      "state_name": "California",
+      "standard_deduction": 6500,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.03
+        },
+        {
+          "min": 10001,
+          "max": 60000,
+          "rate": 0.05
+        },
+        {
+          "min": 60001,
+          "max": 120000,
+          "rate": 0.07
+        },
+        {
+          "min": 120001,
+          "max": null,
+          "rate": 0.09
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "CO",
+      "state_name": "Colorado",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "CT",
+      "state_name": "Connecticut",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "DE",
+      "state_name": "Delaware",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "FL",
+      "state_name": "Florida",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "GA",
+      "state_name": "Georgia",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "HI",
+      "state_name": "Hawaii",
+      "standard_deduction": 6500,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.03
+        },
+        {
+          "min": 10001,
+          "max": 60000,
+          "rate": 0.05
+        },
+        {
+          "min": 60001,
+          "max": 120000,
+          "rate": 0.07
+        },
+        {
+          "min": 120001,
+          "max": null,
+          "rate": 0.09
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "ID",
+      "state_name": "Idaho",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "IL",
+      "state_name": "Illinois",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "IN",
+      "state_name": "Indiana",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "IA",
+      "state_name": "Iowa",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "KS",
+      "state_name": "Kansas",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "KY",
+      "state_name": "Kentucky",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "LA",
+      "state_name": "Louisiana",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "ME",
+      "state_name": "Maine",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "MD",
+      "state_name": "Maryland",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "MA",
+      "state_name": "Massachusetts",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "MI",
+      "state_name": "Michigan",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Minnesota",
+      "standard_deduction": 6500,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.03
+        },
+        {
+          "min": 10001,
+          "max": 60000,
+          "rate": 0.05
+        },
+        {
+          "min": 60001,
+          "max": 120000,
+          "rate": 0.07
+        },
+        {
+          "min": 120001,
+          "max": null,
+          "rate": 0.09
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "MS",
+      "state_name": "Mississippi",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "MO",
+      "state_name": "Missouri",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "MT",
+      "state_name": "Montana",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "NE",
+      "state_name": "Nebraska",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "NV",
+      "state_name": "Nevada",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "NH",
+      "state_name": "New Hampshire",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "NJ",
+      "state_name": "New Jersey",
+      "standard_deduction": 6500,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.03
+        },
+        {
+          "min": 10001,
+          "max": 60000,
+          "rate": 0.05
+        },
+        {
+          "min": 60001,
+          "max": 120000,
+          "rate": 0.07
+        },
+        {
+          "min": 120001,
+          "max": null,
+          "rate": 0.09
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "NM",
+      "state_name": "New Mexico",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "NY",
+      "state_name": "New York",
+      "standard_deduction": 6500,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.03
+        },
+        {
+          "min": 10001,
+          "max": 60000,
+          "rate": 0.05
+        },
+        {
+          "min": 60001,
+          "max": 120000,
+          "rate": 0.07
+        },
+        {
+          "min": 120001,
+          "max": null,
+          "rate": 0.09
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "NC",
+      "state_name": "North Carolina",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "ND",
+      "state_name": "North Dakota",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "OH",
+      "state_name": "Ohio",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "OK",
+      "state_name": "Oklahoma",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "OR",
+      "state_name": "Oregon",
+      "standard_deduction": 6500,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.03
+        },
+        {
+          "min": 10001,
+          "max": 60000,
+          "rate": 0.05
+        },
+        {
+          "min": 60001,
+          "max": 120000,
+          "rate": 0.07
+        },
+        {
+          "min": 120001,
+          "max": null,
+          "rate": 0.09
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "PA",
+      "state_name": "Pennsylvania",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "RI",
+      "state_name": "Rhode Island",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "SC",
+      "state_name": "South Carolina",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "SD",
+      "state_name": "South Dakota",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "TN",
+      "state_name": "Tennessee",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "TX",
+      "state_name": "Texas",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "UT",
+      "state_name": "Utah",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "VT",
+      "state_name": "Vermont",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "VA",
+      "state_name": "Virginia",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "WA",
+      "state_name": "Washington",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "WV",
+      "state_name": "West Virginia",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "WI",
+      "state_name": "Wisconsin",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "WY",
+      "state_name": "Wyoming",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": null,
+          "rate": 0
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    },
+    {
+      "state_code": "DC",
+      "state_name": "District of Columbia",
+      "standard_deduction": 5200,
+      "self_employment_tax_rate": 0.153,
+      "income_tax_brackets": [
+        {
+          "min": 0,
+          "max": 10000,
+          "rate": 0.02
+        },
+        {
+          "min": 10001,
+          "max": 50000,
+          "rate": 0.04
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "rate": 0.06
+        },
+        {
+          "min": 100001,
+          "max": null,
+          "rate": 0.07
+        }
+      ],
+      "deductions": [
+        {
+          "key": "home_office",
+          "label": "Home Office",
+          "max_percentage": 0.1
+        },
+        {
+          "key": "internet",
+          "label": "Internet & Phone",
+          "max_percentage": 0.05
+        },
+        {
+          "key": "travel",
+          "label": "Travel & Mileage",
+          "max_percentage": 0.12
+        },
+        {
+          "key": "equipment",
+          "label": "Equipment & Software",
+          "max_percentage": 0.08
+        },
+        {
+          "key": "education",
+          "label": "Training & Education",
+          "max_percentage": 0.04
+        }
+      ]
+    }
+  ]
+}
